@@ -4,4 +4,5 @@ This repository houses all my the mini-projects I worked on while learning Pytho
 The programs present here mostly are coded using Python 3.
 
 # List of projects:
--Calculator
+-Calculator program
+-Rock Paper Scissors game
