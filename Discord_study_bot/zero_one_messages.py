@@ -22,5 +22,5 @@ async def on_message(message):
 
 
 
-token = "MTEwMjIwMzU2Mjg1NzA3NDgwOA.GLrlZl.jpv44tgdpac8XzbzIWp3aCkBQoqql1lOjxn47Q"
+token = "not to be shared"
 client.run(token)
