@@ -16,8 +16,11 @@ async def on_message(message):
         return
     
     #await message.channel.send("bot speaking")
-    if message.content=="start_session":
-        await message.channel.send("study bot started study session")
+    else:
+        if message.content=="start_session":
+            await message.channel.send("study bot started study session")
 
-token = "MTEwMjExNTI3NTc3Nzc4MTc5MQ.GOZbOg.mTARC1Fa0w4LxWH5AtEFmrR2XyxcvL24ZG8Wqk"
+
+
+token = "MTEwMjIwMzU2Mjg1NzA3NDgwOA.GLrlZl.jpv44tgdpac8XzbzIWp3aCkBQoqql1lOjxn47Q"
 client.run(token)
