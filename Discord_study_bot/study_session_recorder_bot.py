@@ -44,8 +44,6 @@ class Study_record():
         return f"User : {self.name}\nStudy status(true/false) : {self.study_status}\nTime studied : {self.total_studytime}"
     
     
-
-
 class MyClient(discord.Client):     
     def __init__(self, *args, **kwargs):  
         super().__init__(*args, **kwargs)
